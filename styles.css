@@ -9,7 +9,7 @@ body {
     place-items: center;
     padding: 24px;
     font-family: system-ui, sans-serif;
-    background: #eef2ff;
+    background: #f0fdfa;        
     color: #1f2937;
 }
 
@@ -20,6 +20,7 @@ body {
 
 .top h1 {
     margin: 0;
+    color: #0f766e;             
 }
 
 .top p {
@@ -28,11 +29,11 @@ body {
 }
 
 .card {
-    width: min(600 px, 100%);
-    background: #fff;
+    width: min(600px, 100%);
+    background: #ffffff;
     padding: 18px;
     border-radius: 16px;
-    box-shadow: 0 10px 24px rgba(79, 70, 229, .2);
+    box-shadow: 0 10px 24px rgba(15, 118, 110, 0.2); 
 }
 
 .rowForm {
@@ -41,20 +42,25 @@ body {
     margin-bottom: 12px;
 }
 
-input, select {
+input,
+select {
     flex: 1;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #c7d2fe;
+    border: 1px solid #99f6e4;   
 }
 
 button {
     padding: 10px 14px;
     border-radius: 10px;
     border: none;
-    background: #4f46e5;
-    color: #fff;
+    background: #0d9488;        
+    color: #ffffff;
     cursor: pointer;
+}
+
+button:hover {
+    background: #0f766e;
 }
 
 section {
@@ -64,7 +70,7 @@ section {
 section h3 {
     margin: 0 0 6px;
     font-size: 14px;
-    color: #4f46e5;
+    color: #0f766e;
 }
 
 .list {
@@ -78,10 +84,10 @@ section h3 {
 .list li {
     padding: 10px;
     border-radius: 10px;
-    background: #f1f5ff;
+    background: #ecfeff;        
 }
 
 .summary li {
-    background: #dcfce7;
+    background: #dcfce7;        
     color: #166534;
 }
